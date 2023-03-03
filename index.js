@@ -6,11 +6,9 @@ const printMsg = (function () {
     if (counter < 5) {
       console.log("Congrats you earn the chance.");
       counter += 1;
-      return counter;
     } else {
       console.log("Sorry! you missed the chance.");
       counter += 1;
-      return counter;
     }
   };
 })();
